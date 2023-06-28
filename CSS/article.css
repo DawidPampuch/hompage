@@ -1,0 +1,41 @@
+.article__list {
+    border: 2px dashed rgb(27, 151, 160);
+    border-radius: 20px;
+}
+
+.article__header {
+    background-color: rgb(194, 217, 219);
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.article__item {
+    margin: 10px;
+}
+
+.article__picture {
+    display: block;
+    margin: auto;
+    max-width: 300px;
+    border-radius: 50%;
+    border: rgb(194, 217, 219) solid 5px;
+}
+
+.article__button {
+    display: block;
+    margin: auto;
+    background-color: teal;
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: 600;
+}
+
+.article__button:hover {
+    background-color: rgb(3, 163, 163);
+}
+
+.article__button:active {
+    background-color: rgb(1, 85, 85);
+}

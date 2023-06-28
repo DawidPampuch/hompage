@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dawid Pampuch - Przywitanie</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous">
+    <link href="CSS/style.css" rel="stylesheet">
+    <link href="CSS/navigation.css" rel="stylesheet">
+    <link href="CSS/footer.css" rel="stylesheet">
+    <link href="CSS/table.css" rel="stylesheet">
+    <link href="CSS/article.css" rel="stylesheet">
+    <link href="CSS/table.css" rel="stylesheet">
+    <link href="CSS/header.css" rel="stylesheet">
+    <link href="CSS/section.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <script defer src="JS/script.js"></script>
+</head>
+
+<body class="body">
+    <nav class="navigation">
+        <ul class="navigation__list">
+            <li><a class="navigation__link" href="#O-mnie">
+                    O mnie
+                </a></li>
+            <li><a class="navigation__link" href="#Cel-nauki">
+                    Cel nauki
+                </a></li>
+            <li><a class="navigation__link" href="#Wykształcenie">
+                    Wykształcenie
+                </a></li>
+            <li><a class="navigation__link" href="#Kariera">
+                    Kariera
+                </a></li>
+        </ul>
+    </nav>
+    <header class="header">
+        <h1 class="header__title">Dawid Pampuch</h1>
+    </header>
+    <main>
+        <article class="article">
+            <img class="article__picture" src=https://scontent-waw1-1.xx.fbcdn.net/v/t39.30808-6/244657793_6612688962104546_8816438500538209197_n.jpg?_nc_cat=111&cb=99be929b-59f725be&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=NBUEC4cfhaEAX8egXjJ&_nc_ht=scontent-waw1-1.xx&oh=00_AfCa1mOPLGXiTF9JyPP3MwZEi0sSXogKyID6d4l_YWHI0w&oe=64A0E942 alt="Portret">
+            <br><button class="article__button">Usuń zdjęcie</button>
+            <h2 id="O-mnie" class="article__header">O mnie</h2>
+            <p class="article__paragraph">
+                Pochodzę z niewielkiej miejscowości pod Opolem. Na codzień zajmuję się kabelkową robotą. Od dwóch
+                lat
+                jestem
+                <strong>szczęśliwym mężem</strong>, a od roku również <strong>zmęczonym tatą</strong>. 👶
+            </p>
+        </article>
+        <article class="article">
+            <h2 id="Cel-nauki" class="article__header">Cel nauki 📈 </h2>
+            <p class="article__paragraph">
+                Do rozpoczęcia nauki <em>programowania</em> zmotywowały możliwości jakie daje posiadanie
+                umiejętności <em>pisania
+                    kodu</em>, oraz to, że stale poszukuję nowych ścieżek rozwoju.
+            </p>
+        </article>
+        <article class="article">
+            <h2 id="Wykształcenie" class="article__header">Wykształcenie 👨‍🎓 </h2>
+            <ul class="article__list">
+                <li class="article__item">Technikum nr V w Opolu im. Tadeusza Kościuszki - Technik elektryk</li>
+                <li class="article__item">Politechnika Opolska, wydział mechaniczny - Inżynier mechaniki i budowy maszyn
+                </li>
+            </ul>
+        </article>
+        <section class="section">
+            <h2 id="Kariera" class="section__header">Kariera 🛠 </h2>
+            <table class="table">
+                <caption class="table__caption">Ścieżka kariery</caption>
+                <tr class="table__row">
+                    <th class="table__cell table__cell--header" scope="col">Nazwa firmy</th>
+                    <th class="table__cell table__cell--header" scope="col">Stnowisko</th>
+                    <th class="table__cell table__cell--header" scope="col">Data rozpoczęcia pracy</th>
+                    <th class="table__cell table__cell--header" scope="col">Data zakończenia pracy</th>
+                </tr>
+                <tr class="table__row">
+                    <th class="table__cell table__cell--header" scope="row">ElektroLino</th>
+                    <td class="table__cell">Elektryk</td>
+                    <td class="table__cell">Czerwiec 2017</td>
+                    <td class="table__cell">Grudzień 2018</td>
+                </tr>
+
+                <tr class="table__row">
+                    <th class="table__cell table__cell--header" scope="row">Fabryka Maszyn Rotox</th>
+                    <td class="table__cell">Monter maszyn i szaf sterowniczych</td>
+                    <td class="table__cell">Styczeń 2019</td>
+                    <td class="table__cell">Maj 2020</td>
+                </tr>
+                <tr class="table__row">
+                    <th class="table__cell table__cell--header" scope="row">Electro-D</th>
+                    <td class="table__cell">Monter instalacji PV</td>
+                    <td class="table__cell">Maj 2020</td>
+                    <td class="table__cell">Grudzień 2021</td>
+                </tr>
+                <tr class="table__row">
+                    <th class="table__cell table__cell--header" scope="row">Fabryka Maszyn Rotox</th>
+                    <td class="table__cell">Technolog - Konstruktor</td>
+                    <td class="table__cell">Styczeń 2022</td>
+                    <td class="table__cell"> - </td>
+                </tr>
+            </table>
+        </section>
+    </main>
+    <footer class="footer">
+        <p class="footer__paragraph">Pampuch & Pampuch Company</p>
+    </footer>
+</body>
+
+</html>
