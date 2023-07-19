@@ -1,9 +1,17 @@
-let button = document.querySelector(".article__button");
-let object = document.querySelector(".article__picture")
+{
+    const delatePicture = (button) => {
+        const object = document.querySelector(".article__picture");
 
-button.addEventListener("click", () => {
-    if (button.innerText === "Usuń zdjęcie") {
-        button.innerText = "Zdjęcie usunięto";
-    } object.remove();
-})
+        if (button.innerText === "Usuń zdjęcie") {
+            button.innerText = "Zdjęcie usunięto";
+        } object.remove(delatePicture);
+    };
 
+    const init = () => {
+        const button = document.querySelector(".article__button");
+
+        button.addEventListener("click", delatePicture)
+    };
+
+    init();
+};
