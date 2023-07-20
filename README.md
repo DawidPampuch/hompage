@@ -1,7 +1,6 @@
-# Dawid Pampuch - Przywitanie
+# Dawid Pampuch - Welcome
 ## Demo
-[Przywitanie](https://dawidpampuch.github.io/hompage/)
+[Welcome](https://dawidpampuch.github.io/hompage/)
 ## Opis
-Moja pierwsza strona z podstawowymi elemantami, prostym stylowaniem i przykładową funkcją przycisku, napisaną w JS.
-
+My first page with basic elements, simple styling and example button function, written in JS.
 
